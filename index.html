@@ -11,6 +11,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- ADD YOUR CUSTOM CSS HERE FOR TESTING -->
+	        <style>
+	            .google-form-filter-parent {
+	                /* background-color: #e44c65; */ /* Uncomment if needed */
+	                filter: invert(1);
+	                max-width: 700px; 
+	                margin: 0 auto 2em auto; 
+	            }
+	
+	            .google-form-filter-child {
+	                filter: none; /* Start with this, then add corrective filters */
+	                /* example: filter: hue-rotate(180deg) saturate(0.5) brightness(1.2); */
+	            }
+	
+	            .google-form-filter-parent iframe {
+	                display: block; 
+	                width: 100%;
+	                border: none;
+	                height: 750px; /* You'll still need to manage height for the iframe itself */
+	            }
+	        </style>
+        <!-- END OF CUSTOM CSS -->
 	</head>
 	<body class="is-preload landing">
 		<div id="page-wrapper">
